@@ -1,0 +1,51 @@
+{
+  "name": "infinitearch-final-stage4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.21.0",
+    "customize-cra": "^1.0.0",
+    "inversify": "5.0.5",
+    "leaflet": "1.7.1",
+    "mobx": "^6.0.4",
+    "mobx-react": "^7.0.5",
+    "navigo": "8.11.1",
+    "react": "16.8.4",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "16.8.4",
+    "react-scripts": "2.1.3",
+    "reflect-metadata": "0.1.13",
+    "simple-react-validator": "1.6.1",
+    "tree-model": "1.0.7",
+    "wait-for-expect": "3.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
